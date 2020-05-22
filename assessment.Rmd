@@ -1,0 +1,25 @@
+---
+title: "Assessment"
+author: "Liam Maybank"
+date: "22/05/2020"
+output: html_document
+---
+```{r, echo=F}
+n <- nrow(mtcars)
+```
+Here `r n` cars are compared
+
+
+```{r eval=TRUE}
+a <- 2
+```
+
+```{r include=TRUE, eval=FALSE}
+print("Hello World!")
+a <- 5
+```
+
+```{r echo=FALSE}
+a <- a+1
+print(a)
+```
